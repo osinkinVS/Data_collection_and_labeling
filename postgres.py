@@ -7,7 +7,7 @@ def connect_to_db():
         conn = psycopg2.connect(
             dbname="postgres",
             user="postgres",
-            password="3EsqlVPT",
+            password="******",
             host="localhost"
         )
         return conn
